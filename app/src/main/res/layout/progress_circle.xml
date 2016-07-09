@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/progress_container"
+    tools:context=".activity.Home">
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        style="@style/button_close_progress"/>
+
+    <ImageView
+        android:id="@+id/imageViewProgressCircle"
+        style="@style/icon_progress_circle"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/imageViewProgressCircle"
+        android:layout_marginRight="@dimen/icon_size_small"
+        style="@style/dialog_content_container">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/dialog_title"/>
+
+        <TextView
+            android:id="@+id/textViewContent"
+            style="@style/dialog_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

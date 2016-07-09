@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- LOGIN -->
+
+
+
+    
+    <!-- FINANCIAL -->
+
+        <!-- GENERAL -->
+
+        <string name="hint_search_order">search order by name or address</string>
+        <string name="hint_user_name">Input your username</string>
+        <string name="hint_user_password">Input your passworde</string>
+
+        <!-- TRANSFER -->
+
+        <string name="hint_transferCatagory_form">a</string>
+        <string name="hint_destinationBank_form">Pick destination bank</string>
+        <string name="hint_destinationAccount_form">Input new destination account</string>
+        <string name="hint_destinationAccount_add">Input new destination account</string>
+        <string name="hint_amount_form">Amount of money to be proceed</string>
+        <string name="hint_accountHolder_form">Input account holder name</string>
+        <string name="hint_accountHolder_add">Input account holder name</string>
+
+        <string name="prompt_transferCatagory_form">b</string>
+        <string name="prompt_destinationBank_form">Choose destination bank below</string>
+        <string name="prompt_destinationAccount_form">Choose destination account below</string>
+
+        <!-- PURCHASE -->
+
+        <string name="hint_purchaseCatagory_form">c</string>
+        <string name="hint_purchaseDenom_form">Pick credit denom</string>
+        <string name="hint_telephoneNumber_form">Input your phonenumber</string>
+        <string name="hint_telephoneNumber_add">Input new phonenumber</string>
+
+        <string name="prompt_purchaseCatagory_form">d</string>
+        <string name="prompt_telephoneNumber_form">Choose phone number below</string>
+        <string name="prompt_purchaseDenom_form">Choose topup denom below</string>
+
+        <!-- PAYMENT -->
+
+        <string name="hint_paymentCatagory_form">e</string>
+        <string name="hint_biller_form">Biller name</string>
+        <string name="hint_customerNumber_form">Customer number</string>
+        <string name="hint_customerNumber_add">Input new customer id</string>
+
+        <string name="prompt_paymentCatagory_Form">f</string>
+        <string name="prompt_biller_form">Choose biller name below</string>
+        <string name="prompt_customerNumber_form">Choose customer id below</string>
+
+    
+    <!-- NON FINANCIAL -->
+
+        <!-- SETTING -->
+
+        <string name="hint_password">Input your password</string>
+        <string name="hint_oldPassword_form">Entry old password</string>
+        <string name="hint_newPassword_form">Entry new password</string>
+        <string name="hint_confirmPassword_form">Entry new password again</string>
+        <string name="hint_connectionType">Choose connection type</string>
+
+        <string name="prompt_connectionType">Choose connection type below</string>
+
+        <!-- OTHER SERVICES -->
+
+        <string name="hint_commentTitle_form">Input your password</string>
+        <string name="hint_commentContent_form">Entry old password</string>
+        <string name="hint_currency_form">Entry new password</string>
+
+        <string name="prompt_currency_form">Choose connection type below</string>
+    
+</resources>

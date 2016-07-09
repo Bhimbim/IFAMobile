@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+    <!-- PROCEES MESSAGE -->
+    
+    <string name="process_smsInquiry_prefix">Request process\u0020</string>
+    <string name="process_sms_prefix">Process\u0020</string>
+    <string name="process_smsSent_infix">\u0020has been sent.</string>
+    <string name="process_smsGeneric_infix">\u0020have generic disturbed.</string>
+    <string name="process_smsNoService_infix">\u0020have signal disruption, there is no service.</string>
+    <string name="process_smsProtocol_infix">\u0020have protocol unit data disruption.</string>
+    <string name="process_smsRadio_infix">\u0020have radio disruption.</string>
+    <string name="process_smsProgress_infix">\u0020on progress.</string>
+    <string name="process_smsCanceled_infix">\u0020not accepted.</string>
+    <string name="process_composeMessage_prefix">There was a problem in the service request.</string>
+    <string name="process_serviceNotAvailable_prefix">The service you choose has not been or not available.</string>
+    <string name="process_add">process add</string>
+    <string name="process_change">process change</string>
+    <string name="process_delete">process delete</string>
+    
+ 	<!-- ERROR MESSAGE -->
+	
+	<string name="error_exactLength_prefix">The valid length of these characters is\u0020</string>
+	<string name="error_minLength_prefix">Minimum number of characters length is\u0020</string>
+	<string name="error_betweenLength_prefix">Minimum number of characters long\u0020</string>
+	<string name="error_betweenLength_infix">\u0020and maximum\u0020</string>
+	<string name="error_maxLength_prefix">The maximum number of characters length is\u0020</string>
+	<string name="error_didntMatch_infix">\u0020that you entered is not appropriate.</string>
+	<string name="error_sourceAccountEmpty_prefix">\u0020Please make arrangements of source account in advance, HOME > SETTING > SET SOURCE ACCOUNT.</string>
+	<string name="error_format_prefix">The format of the input should be a\u0020</string>
+	<string name="error_empty_prefix">\u0020must be filled.</string>
+	<string name="error_minValue_prefix">A minimum value for the column\u0020</string>
+	<string name="error_maxValue_prefix">A maximum value for the column\u0020</string>
+	<string name="error_minValue_infix">\u0020is\u0020</string>
+	<string name="error_duplicate_prefix">\u0020that you entered is already registered.</string>
+	<string name="error_invalid_infix">not valid. please contact administrator.</string>
+	<string name="error_confirm_pass_failed">The new password is not equal with the password confirmation. please check again.</string>
+	<string name="error_invalidOldPass">Old password is not valid. please check again.</string>
+	<string name="error_newPassMustNotSame">The new password must not be the same as the old password. please check again</string>
+	<string name="error_defaultPass_infix">\u0020default password is 1234</string>
+	<string name="error_phoneNumberOutOfService">The destination phone number is out of service. please check again</string>
+
+	<string name="failed_process_data_prefix">error occur while\u0020</string>
+	<string name="failed_process_data_infix">\u0020.Please try again</string>
+
+	<!-- SUCCESS MESSAGE -->
+		
+	<string name="success_processAdd">data has succcessfully added.</string>	
+	<string name="success_processChange">data has successfully changed.</string>	
+	<string name="success_processDelete">data has successfully deleted.</string>
+	
+	<!-- SETTINGS -->
+
+	<string name="confirm_delete">are you sure want to delete this\u0020</string>
+	<string name="progress_title_general">Please wait</string>
+	<string name="progress_content_prefix">We are still processing your\u0020</string>
+	<string name="progress_content_infix">\u0020request for\u0020</string>
+	<string name="progress_content_suffix">\u0020transaction.</string>
+
+</resources>

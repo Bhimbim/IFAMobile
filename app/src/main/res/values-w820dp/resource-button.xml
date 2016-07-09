@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- BUTTON DIMEN -->
+
+	<dimen name="button_width_medium">180dp</dimen>
+	<dimen name="button_height_medium">36dp</dimen>
+
+</resources>

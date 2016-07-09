@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- HEADER -->
+
+	<dimen name="header_toolbar_height">42dp</dimen>
+	<dimen name="header_tabLayout_height">32dp</dimen>
+	<dimen name="header_guide_weight">42dp</dimen>
+
+	<!-- PAPER -->
+
+	<dimen name="paper_header_height">36dp</dimen>
+	<dimen name="paper_horn_width">8dp</dimen>
+
+
+	<!-- NAVIGATION -->
+
+	<dimen name="navigation_margin_left">-201dp</dimen>
+	<dimen name="navigation_slide_width">200dp</dimen>
+	<dimen name="navigation_icon_size">36dp</dimen>
+	<dimen name="navigation_photo_size">120dp</dimen>
+    
+</resources>

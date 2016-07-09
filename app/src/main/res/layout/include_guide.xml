@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/guide_container">
+
+    <LinearLayout
+        style="@style/guide_line_container">
+
+        <View
+            style="@style/guide_line_space"/>
+
+        <View
+            android:id="@+id/viewLineLeft"
+            style="@style/guide_line"/>
+
+        <View
+            android:id="@+id/viewLineMiddle"
+            style="@style/guide_line"/>
+
+        <View
+            android:id="@+id/viewLineRight"
+            style="@style/guide_line"/>
+
+        <View
+            style="@style/guide_line_space"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/guide_indicator_container">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSenderGuide"
+            style="@style/indicator_item_container">
+
+            <TextView
+                android:id="@+id/textViewSenderIcon"
+                style="@style/indicator_icon"
+                android:text="@string/guide_1"/>
+
+            <TextView
+                android:id="@+id/textViewSenderTitle"
+                style="@style/indicator_title"
+                android:text="@string/guide_sender"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRecipientGuide"
+            style="@style/indicator_item_container">
+
+            <TextView
+                android:id="@+id/textViewRecipientIcon"
+                style="@style/indicator_icon"
+                android:text="@string/guide_2"/>
+
+            <TextView
+                android:id="@+id/textViewRecipientTitle"
+                style="@style/indicator_title"
+                android:text="@string/guide_recipient"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPackageGuide"
+            style="@style/indicator_item_container">
+
+            <TextView
+                android:id="@+id/textViewPackageIcon"
+                style="@style/indicator_icon"
+                android:text="@string/guide_3"/>
+
+            <TextView
+                android:id="@+id/textViewPackageTitle"
+                style="@style/indicator_title"
+                android:text="@string/guide_package"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPayment"
+            style="@style/indicator_item_container">
+
+            <TextView
+                android:id="@+id/textViewPaymentIcon"
+                style="@style/indicator_icon"
+                android:text="@string/guide_4"/>
+
+            <TextView
+                android:id="@+id/textViewPaymentTitle"
+                style="@style/indicator_title"
+                android:text="@string/guide_payment"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

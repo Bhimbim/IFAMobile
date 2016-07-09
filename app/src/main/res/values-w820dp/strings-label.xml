@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+    <!-- MENU / TITLE -->
+
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_changePassword">Change Password</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_options">Options</string>
+    <string name="tab_order">Order</string>
+    <string name="tab_onProcess">On Process</string>
+    <string name="tab_history">History</string>
+    <string name="guide_1">1</string>
+    <string name="guide_2">2</string>
+    <string name="guide_3">3</string>
+    <string name="guide_4">4</string>
+    <string name="guide_sender">sender</string>
+    <string name="guide_recipient">recipient</string>
+    <string name="guide_package">package</string>
+    <string name="guide_payment">payment</string>
+    <string name="guide_done">done</string>
+
+
+    <!-- PAPER -->
+
+    <string name="paper_sender_details">Sender Details</string>
+    <string name="paper_recipient_list">Recipient List</string>
+    <string name="paper_recipient_details">Recipient Details</string>
+    <string name="paper_package_list">Package List</string>
+    <string name="paper_package_details">Package Details</string>
+    <string name="paper_payment_details">Payment Details</string>
+    <string name="paper_payment_confirmation">Payment Confirmation</string>
+
+    
+    <!-- PROGRESS SCREEN -->
+    
+    <string name="progress_progress">Please wait while your request is being processed.</string>
+    <string name="conjunction_list">\u0020-\u0020</string>
+
+    
+    <!-- BUTTON -->
+    
+    <string name="button_login">Login</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_back">Back</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirmation">Confirmation</string>
+    <string name="button_change">Change</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_preview">Preview</string>
+    <string name="button_send">Sebd</string>
+    <string name="button_save">Save</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_next">Next</string>
+    <string name="button_bill">Bill</string>
+    <string name="button_print">Print</string>
+    <string name="button_viewLocation">View Location</string>
+    <string name="button_getCurrentLocation">Get Current Location</string>
+    <string name="button_pickLocation">Pick Location</string>
+    <string name="button_done">Done</string>
+    <string name="button_takeOrder">Take Order !</string>
+
+
+    <!-- ALERT -->
+
+    <string name="alert_payment_confirmation">Alert Payment</string>
+    <string name="alert_map_getLocation">Alert Get Current Location</string>
+    <string name="alert_list_orderTitle">No Available Pick Up Delivery</string>
+    <string name="alert_list_orderContent">There are no available order</string>
+    <string name="alert_list_historyTitle">No History</string>
+    <string name="alert_list_historyContent">Please take order from order list</string>
+    <string name="alert_list_onProcessTitle">No Delivery On Process</string>
+    <string name="alert_list_onProcessContent">Please take order from order list</string>
+
+
+    <!-- PROFILE -->
+
+    <string name="profile_name_default">Peter Parker</string>
+    <string name="profile_position_default">Courier</string>
+
+</resources>

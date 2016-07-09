@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+    <!-- GENERAL -->
+    
+    <string name="logo_main">PT eMobile Indonesia - MMBS Arowana, Logo</string>
+    <string name="logo_header">PT eMobile Indonesia - MMBS Arowana, Logo</string>
+    <string name="icon_logout">PT eMobile Indonesia - MMBS Arowana, Icon Logout</string>
+    <string name="icon_back">PT eMobile Indonesia - MMBS Arowana, Icon Back</string>
+    <string name="icon_quit">PT eMobile Indonesia - MMBS Arowanae, Icon Quit</string>
+    
+    
+    <!-- INPUT -->
+    
+    <string name="icon_username">PT eMobile Indonesia - Mega Finance, Icon Username</string>
+    <string name="icon_userpassword">PT eMobile Indonesia - Mega Finance, Icon Userpassword</string>
+    
+    
+    <!-- IMAGE -->
+    
+    <string name="image_progressCircle">PT eMobile Indonesia - MMBS Arowana, Progress Circle</string>
+    
+</resources>

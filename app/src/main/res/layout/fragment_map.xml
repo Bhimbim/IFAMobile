@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/general_relative_matchParent"
+    tools:context=".activity.Home">
+
+    <!--<fragment-->
+        <!--android:id="@+id/map"-->
+        <!--style="@style/map_medium"-->
+        <!--class="com.google.android.gms.maps.MapFragment"-->
+        <!--android:apiKey="@string/googleapi_map_key"/>-->
+
+    <FrameLayout
+        android:id="@+id/frameLayoutMap"
+        style="@style/general_relative_matchParent"/>
+
+    <include
+        android:id="@+id/includeControllocation"
+        style="@style/general_relative_matchWrap"
+        layout="@layout/include_control_location"/>
+
+</FrameLayout>

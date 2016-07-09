@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- APPLICATION -->
+    
+    <string name="application_name">JNE Courier</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+
+    <!-- PAGE -->
+
+    <string name="page_splash">PT Emobile Indonesia - JNE Courier, Splash Page</string>
+    <string name="page_login">PT Emobile Indonesia - JNE Courier, Login Page</string>
+    <string name="page_home">PT Emobile Indonesia - JNE Courier, Home Page</string>
+    <string name="page_profile">PT Emobile Indonesia - JNE Courier, Profile Page</string>
+    <string name="page_changePassword">PT Emobile Indonesia - JNE Courier, Change PasswordPage</string>
+    <string name="page_option">PT Emobile Indonesia - JNE Courier, Option Page</string>
+    <string name="page_messages">PT Emobile Indonesia - JNE Courier, Messages Page</string>
+    
+    <string name="page_order_list">PT Emobile Indonesia - JNE Courier, Order List Page</string>
+    <string name="page_order_details">PT Emobile Indonesia - JNE Courier, Order Preview
+        Page</string>
+    <string name="page_sender_details">PT Emobile Indonesia - JNE Courier, Delivery Details
+        Page</string>
+    <string name="page_sender_list">PT Emobile Indonesia - JNE Courier, Delivery Recipients
+        Page</string>
+    <string name="page_recipient_details">PT Emobile Indonesia - JNE Courier, Delivery Details
+        Page</string>
+    <string name="page_recipient_list">PT Emobile Indonesia - JNE Courier, Delivery Recipients
+        Page</string>
+    <string name="page_package_list">PT Emobile Indonesia - JNE Courier, Package List Page</string>
+    <string name="page_package_details">PT Emobile Indonesia - JNE Courier, Package
+        Preview Page</string>
+    <string name="page_purchase">PT Emobile Indonesia - JNE Courier, Purchase Page</string>
+    <string name="page_receipt">PT Emobile Indonesia - JNE Courier, Receipt Page</string>
+
+
+
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/order_container">
+
+    <ImageView
+        android:id="@+id/imageViewPackageType"
+        style="@style/list_packageType_order"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/imageViewPackageType"
+        android:layout_toLeftOf="@id/textViewWeight"
+        style="@style/order_content_container">
+
+        <TextView
+            android:id="@+id/textViewName"
+            style="@style/list_header" />
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            style="@style/list_description" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewWeight"
+        style="@style/list_weight_order"/>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- LOGIN -->
+
+    <string name="field_username">Username</string>
+    <string name="field_password">Password</string>
+
+
+    <!-- ORDER -->
+
+        <!-- SENDER & RECIPIENTS -->
+
+        <string name="field_name">Name</string>
+        <string name="field_province">Province</string>
+        <string name="field_city">City</string>
+        <string name="field_postalCode">Postal Code</string>
+        <string name="field_address">Address</string>
+        <string name="field_latitude">Latitude</string>
+        <string name="field_longitude">Longitude</string>
+        <string name="field_hint">Hint</string>
+        <string name="field_telephone">Telephone</string>
+        <string name="field_mobileTelephone">Mobile Telephone</string>
+
+        <!-- PACKAGE -->
+
+        <string name="field_description">Description</string>
+        <string name="field_serviceType">Service Type</string>
+        <string name="field_packageType">Package Type</string>
+        <string name="field_weight">Weight in Kilogram</string>
+        <string name="field_long">Long in Centimeter</string>
+        <string name="field_width">Width in Centimeter</string>
+        <string name="field_tall">Tall in Centimeter</string>
+        <string name="field_specificInstruction">Specific Instruction</string>
+        <string name="field_note">Note</string>
+        <string name="field_packageValue">Package Value</string>
+
+        <!-- PAYMENT -->
+
+        <string name="field_pickTelephone">Pick Telephone</string>
+        <string name="field_totalPackage">Total Package</string>
+        <string name="field_deliveryCost">Delivery Cost</string>
+        <string name="field_otherCosts">Other Costs</string>
+        <string name="field_insurance">Insurance</string>
+        <string name="field_insuranceAdmin">Insurance Admin</string>
+        <string name="field_pickUpCost">Pick Up Cost</string>
+        <string name="field_totalCost">Total Cost</string>
+
+
+    <!-- NAVIGATION -->
+
+        <!-- PROFILE -->
+
+        <string name="field_connectionType_form">Connection type</string>
+        <string name="field_password_form">Password</string>
+        <string name="field_oldPassword_form">Old password</string>
+        <string name="field_newPassword_form">New password</string>
+        <string name="field_confirmPassword_form">Confirm new password</string>
+        <string name="field_sourceAccount_list">List Source Account</string>
+        <string name="field_transfer_list">List Destination Account</string>
+        <string name="field_payment_list">List Customer</string>
+        <string name="field_purchase_list">List Phone No</string>
+
+        <!-- CHANGE PASSWORD -->
+
+        <string name="field_password_current">Password</string>
+        <string name="field_password_new">New Password</string>
+        <string name="field_password_confirmation">Confirm New Password</string>
+
+</resources>

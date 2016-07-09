@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/content_container_withPadding"
+    tools:context=".activity.Home">
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        style="@style/editText_singleLine_rightIcon"
+        android:drawableRight="@drawable/input_search"
+        android:hint="@string/hint_search_order"/>
+
+    <include
+        android:id="@+id/includeHistoryAlertList"
+        style="@style/general_relative_matchWrap"
+        layout="@layout/include_alert_list"/>
+
+    <ListView
+        android:id="@+id/listViewHistory"
+        style="@style/list_container"/>
+
+</LinearLayout>

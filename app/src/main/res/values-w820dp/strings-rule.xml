@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	
+    <!-- GENERAL -->
+    
+    <string name="rule_format_alphabet">alphabet</string>
+    <string name="rule_format_alphabetLowercase">alphabet lowercase</string>
+    <string name="rule_format_alphabetUppercase">alphabet uppercase</string>
+    <string name="rule_format_numeric">numeric</string>
+    <string name="rule_format_phoneNumber">phone number format</string>
+    <string name="rule_format_alphaNumeric">alphabet and numeric</string>
+    
+    <!-- Composer -->
+    <string name="rule_trx_type">Transaction type</string>
+    <string name="rule_trx_conn">Connection type</string>
+    
+ 	<!-- FINANCIAL -->
+	
+	<integer name="rule_accountNumber_minLength">8</integer>
+	<integer name="rule_accountNumber_maxLength">15</integer>
+	<integer name="rule_holder_minLength">5</integer>
+	<integer name="rule_holder_maxLength">25</integer>
+	<integer name="rule_telephoneNumber_minLength">7</integer>
+	<integer name="rule_telephoneNumber_maxLength">15</integer>
+	<integer name="rule_customerNumber_minLength">2</integer>
+	<integer name="rule_customerNumber_maxLength">16</integer>
+	<integer name="rule_bank_length">3</integer>
+	<integer name="rule_biller_length">3</integer>
+	<integer name="rule_amount_minValue">1</integer>
+	<integer name="rule_amount_maxValue">10000000</integer>
+	
+	<!-- NON FINANCIAL -->
+	
+	<integer name="rule_password_length">4</integer>
+	<integer name="rule_PIN_length">6</integer>
+	
+</resources>

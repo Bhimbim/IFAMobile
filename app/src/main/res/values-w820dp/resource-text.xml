@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- TEXT SIZE -->
+
+	<dimen name="text_size_huge">16sp</dimen>
+	<dimen name="text_size_large">14sp</dimen>
+	<dimen name="text_size_medium">12sp</dimen>
+	<dimen name="text_size_small">10sp</dimen>
+	<dimen name="text_size_tiny">9sp</dimen>
+
+
+	<!-- TEXT HEIGHT -->
+
+	<dimen name="text_height_field">16sp</dimen>
+	<dimen name="text_height_input">14sp</dimen>
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/general_vertical_matchWrap">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFormDefaultControl"
+        style="@style/button_container">
+
+        <ImageButton
+            android:id="@+id/imageButtonEdit"
+            style="@style/button_primary_small"
+            android:src="@drawable/icon_icon_edit"/>
+
+        <Button
+            android:id="@+id/buttonNext"
+            style="@style/button_primary_medium"
+            android:text="@string/button_next"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFormModifyControl"
+        style="@style/button_container"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/imageButtonReset"
+            style="@style/button_primary_small"
+            android:src="@drawable/icon_icon_edit"/>
+
+        <Button
+            android:id="@+id/buttonDone"
+            style="@style/button_primary_medium"
+            android:text="@string/button_done"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/content_scrollView_withoutPadding"
+    tools:context=".activity.Home">
+
+    <LinearLayout
+        style="@style/general_vertical_matchWrap">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSender"
+            style="@style/paper_container">
+
+            <RelativeLayout
+                style="@style/paper_header">
+
+                <View
+                    android:id="@+id/viewHorn"
+                    style="@style/paper_horn"/>
+
+                <TextView
+                    android:id="@+id/textViewPackagePaperTitle"
+                    style="@style/paper_title"
+                    android:layout_toRightOf="@id/viewHorn"
+                    android:text="@string/paper_package_details"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonSenderExpand"
+                    style="@style/button_expand"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/form_vertical_container">
+
+                <TextView
+                    android:id="@+id/textViewDescription"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_description"/>
+
+                <EditText
+                    android:id="@+id/editTextDescription"
+                    style="@style/editText_singleLine_plain"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/textViewServiceType"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_serviceType"/>
+
+                <EditText
+                    android:id="@+id/editTextServiceType"
+                    style="@style/editText_singleLine_plain"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/textViewPackageType"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_packageType"/>
+
+                <EditText
+                    android:id="@+id/editTextPackageType"
+                    style="@style/editText_singleLine_plain"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/textViewWeight"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_weight"/>
+
+                <EditText
+                    android:id="@+id/editTextWeight"
+                    style="@style/editText_singleLine_plain"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:id="@+id/textViewLong"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_long"/>
+
+                <EditText
+                    android:id="@+id/editTextLong"
+                    style="@style/editText_singleLine_plain"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:id="@+id/textViewWidth"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_width"/>
+
+                <EditText
+                    android:id="@+id/editTextWidth"
+                    style="@style/editText_singleLine_plain"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:id="@+id/textViewTall"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_tall"/>
+
+                <EditText
+                    android:id="@+id/editTextTall"
+                    style="@style/editText_singleLine_plain"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:id="@+id/textViewSpecificInstruction"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_specificInstruction"/>
+
+                <EditText
+                    android:id="@+id/editTextSpecificInstruction"
+                    style="@style/editText_multiLine_plain"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/textViewNote"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_note"/>
+
+                <EditText
+                    android:id="@+id/editTextNote"
+                    style="@style/editText_singleLine_plain"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/textViewPackageValue"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_packageValue"/>
+
+                <EditText
+                    android:id="@+id/editTextPackageValue"
+                    style="@style/editText_multiLine_plain"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            style="@style/general_relative_matchWrap"
+            layout="@layout/include_control_form"/>
+
+    </LinearLayout>
+
+</ScrollView>

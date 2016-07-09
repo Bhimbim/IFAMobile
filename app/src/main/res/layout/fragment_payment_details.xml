@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/content_scrollView_withoutPadding"
+    tools:context=".activity.Home">
+
+    <LinearLayout
+        style="@style/general_vertical_matchWrap">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSender"
+            style="@style/paper_container">
+
+            <RelativeLayout
+                style="@style/paper_header">
+
+                <View
+                    android:id="@+id/viewHorn"
+                    style="@style/paper_horn"/>
+
+                <TextView
+                    android:id="@+id/textViewPaymentPaperTitle"
+                    style="@style/paper_title"
+                    android:layout_toRightOf="@id/viewHorn"
+                    android:text="@string/paper_payment_details"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonPaymentExpand"
+                    style="@style/button_expand"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                style="@style/form_vertical_container">
+
+                <TextView
+                    android:id="@+id/textViewPickTelephone"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_pickTelephone"/>
+
+                <EditText
+                    android:id="@+id/editTextPickTelephone"
+                    style="@style/editText_singleLine_plain"
+                    android:inputType="phone"/>
+
+                <TextView
+                    android:id="@+id/textViewTotalPackage"
+                    style="@style/field_singleLine"
+                    android:text="@string/field_totalPackage"/>
+
+                <EditText
+                    android:id="@+id/editTextTotalPackage"
+                    style="@style/editText_singleLine_plain"
+                    android:enabled="false"/>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewDeliveryCost"
+                        style="@style/field_cotation"
+                        android:text="@string/field_deliveryCost"/>
+
+                    <EditText
+                        android:id="@+id/editTextDeliveryCost"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewOtherCosts"
+                        style="@style/field_cotation"
+                        android:text="@string/field_otherCosts"/>
+
+                    <EditText
+                        android:id="@+id/editTextOtherCosts"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewInsurance"
+                        style="@style/field_cotation"
+                        android:text="@string/field_insurance"/>
+
+                    <EditText
+                        android:id="@+id/editTextInsurance"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewInsuranceAdmin"
+                        style="@style/field_cotation"
+                        android:text="@string/field_insuranceAdmin"/>
+
+                    <EditText
+                        android:id="@+id/editTextInsuranceAdmin"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewPickUpCost"
+                        style="@style/field_cotation"
+                        android:text="@string/field_pickUpCost"/>
+
+                    <EditText
+                        android:id="@+id/editTextPickUpCost"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/general_horizontal_matchWrap"
+                    android:gravity="right|center_vertical">
+
+                    <View
+                        style="@style/line_horizontal"/>
+
+                    <ImageView
+                        style="@style/shape_plus"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/input_cotation_container">
+
+                    <TextView
+                        android:id="@+id/textViewTotalCost"
+                        style="@style/field_cotation"
+                        android:text="@string/field_totalCost"/>
+
+                    <EditText
+                        android:id="@+id/editTextTotalCost"
+                        style="@style/editText_singleLine_cotation"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonBill"
+            style="@style/button_primary_medium"
+            android:text="@string/button_next"/>
+
+    </LinearLayout>
+
+</ScrollView>

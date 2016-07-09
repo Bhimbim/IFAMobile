@@ -1,0 +1,259 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <!-- THEME -->
+    
+    <style name="ThemeViola.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="colorPrimaryDark">#353087</item>
+        <item name="colorAccent">#211c73</item>
+	</style>
+
+	<style name="ThemeViola" parent="ThemeViola.Base">
+	</style>
+
+    <style name="ThemeViola.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@color/theme_quinary</item>
+        <item name="tabSelectedTextColor">@color/theme_quinary</item>
+    </style>
+
+    <!--<style name="ThemeViola" parent="ThemeViola.Base"></style>-->
+    
+    <!-- GENERAL CONTAINER -->
+    
+    	<!-- HORIZONTAL -->
+    
+	    <style name="general_horizontal_matchParent">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:orientation">horizontal</item>
+	    </style>
+	    
+	    <style name="general_horizontal_wrapContent">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:orientation">horizontal</item>
+	    </style>
+	    
+	    <style name="general_horizontal_matchWrap">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:orientation">horizontal</item>
+	    </style>
+    	
+	    <style name="general_horizontal_wrapMatch">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:orientation">horizontal</item>
+	    </style>
+	    
+	    <style name="general_horizontal_login">
+	        <item name="android:layout_gravity">center_horizontal</item>
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:orientation">horizontal</item>
+	    </style>
+
+        <style name="page_container">
+            <item name="android:layout_marginLeft">@dimen/navigation_margin_left</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:orientation">horizontal</item>
+        </style>
+	    
+	    <!-- VERTICAL -->
+	    
+	    <style name="general_vertical_matchParent">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:orientation">vertical</item>
+	    </style>
+	    
+	    <style name="general_vertical_wrapContent">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:orientation">vertical</item>
+	    </style>
+    	
+	    <style name="general_vertical_matchWrap">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:orientation">vertical</item>
+	    </style>
+	    
+	    <style name="general_vertical_wrapMatch">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:orientation">vertical</item>
+	    </style>
+	    
+	    <style name="general_vertical_page">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:orientation">vertical</item>
+	    </style>
+	    
+	    <style name="navigation_scrollView">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">match_parent</item>
+			<item name="android:padding">@dimen/general_padding_large</item>
+	        <item name="android:scrollbars">vertical</item>
+	        <item name="android:scrollbarStyle">insideOverlay</item>
+            <item name="android:background">@color/theme_secondary</item>
+	    </style>
+	    
+	    <!-- RELATIVE -->
+	    
+	    <style name="general_relative_matchParent">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">match_parent</item>
+	    </style>
+	    
+	    <style name="general_relative_wrapContent">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">wrap_content</item>
+	    </style>
+	    
+	    <style name="general_relative_matchWrap">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">wrap_content</item>
+	    </style>
+    	
+	    <style name="general_relative_wrapMatch">
+	        <item name="android:layout_width">wrap_content</item>
+	        <item name="android:layout_height">match_parent</item>
+	    </style>
+	    
+    
+    <!-- SPACE -->
+    
+	    <!-- HORIZONTAL -->
+	    
+	    <style name="space_horizontal_small">
+	        <item name="android:layout_width">0px</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:layout_weight">10</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+	    
+	    <style name="space_horizontal_medium">
+	        <item name="android:layout_width">0px</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:layout_weight">20</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+	    
+	    <style name="space_horizontal_large">
+	        <item name="android:layout_width">0px</item>
+	        <item name="android:layout_height">match_parent</item>
+	        <item name="android:layout_weight">25</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+	    
+	    <!-- VERTICAL -->
+	    
+	    <style name="space_vertical_small">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">0px</item>
+	        <item name="android:layout_weight">10</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+	    
+	    <style name="space_vertical_medium">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">0px</item>
+	        <item name="android:layout_weight">20</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+    	
+	    <style name="space_vertical_large">
+	        <item name="android:layout_width">match_parent</item>
+	        <item name="android:layout_height">0px</item>
+	        <item name="android:layout_weight">25</item>
+	        <item name="android:visibility">invisible</item>
+	    </style>
+	    
+    
+    <!-- LINE & SHAPE -->
+
+    <style name="line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_thin_height</item>
+        <item name="android:background">@color/theme_secondary</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="shape_plus">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_width">@dimen/icon_size_tiny</item>
+        <item name="android:layout_height">@dimen/icon_size_tiny</item>
+        <item name="android:src">@drawable/icon_expand</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="icon_warning">
+        <item name="android:layout_marginRight">@dimen/general_margin_small</item>
+        <item name="android:layout_width">@dimen/icon_size_small</item>
+        <item name="android:layout_height">@dimen/icon_size_small</item>
+        <item name="android:src">@drawable/icon_warning</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="icon_success">
+        <item name="android:layout_marginRight">@dimen/general_margin_small</item>
+        <item name="android:layout_width">@dimen/icon_size_small</item>
+        <item name="android:layout_height">@dimen/icon_size_small</item>
+        <item name="android:src">@drawable/icon_success</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="icon_fail">
+        <item name="android:layout_marginRight">@dimen/general_margin_small</item>
+        <item name="android:layout_width">@dimen/icon_size_small</item>
+        <item name="android:layout_height">@dimen/icon_size_small</item>
+        <item name="android:src">@drawable/icon_fail</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="icon_progress_circle">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/general_margin_small</item>
+        <item name="android:layout_marginRight">@dimen/general_margin_small</item>
+        <item name="android:layout_width">@dimen/icon_size_small</item>
+        <item name="android:layout_height">@dimen/icon_size_small</item>
+        <item name="android:src">@drawable/icon_progress_circle</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+	<style name="logo_splash">
+		<item name="android:layout_centerInParent">true</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:src">@drawable/logo_splash_courier</item>
+	</style>
+
+	<style name="logo_login">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:src">@drawable/logo_login_courier</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+
+	<style name="icon_packageType">
+		<item name="android:layout_marginLeft">@dimen/general_padding_large</item>
+		<item name="android:layout_width">@dimen/icon_size_huge</item>
+		<item name="android:layout_height">@dimen/icon_size_huge</item>
+		<item name="android:src">@drawable/icon_package_large</item>
+		<item name="android:background">@color/general_transparent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">top</item>
+	</style>
+
+</resources>
