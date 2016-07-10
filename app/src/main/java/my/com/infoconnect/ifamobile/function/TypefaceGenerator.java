@@ -16,6 +16,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import my.com.infoconnect.ifamobile.variable.constant.Character;
+import my.com.infoconnect.ifamobile.variable.constant.UserInterface;
+
 
 // CLASS
 
@@ -40,8 +43,7 @@ public class TypefaceGenerator
 		return Typeface.createFromAsset
 		(
 			activity.getAssets(),
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_GENERAL_URL +
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_TERTIARY_NAME
+			UserInterface.FONT_GENERAL_URL + UserInterface.FONT_TERTIARY_NAME
 		);
 	}
 	
@@ -50,8 +52,8 @@ public class TypefaceGenerator
 		return Typeface.createFromAsset
 		(
 			activity.getAssets(),
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_GENERAL_URL +
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_SECONDARY_NAME);
+			UserInterface.FONT_GENERAL_URL +
+			UserInterface.FONT_SECONDARY_NAME);
 	}
 	
 	public Typeface typefacePrimary()
@@ -59,8 +61,8 @@ public class TypefaceGenerator
 		return Typeface.createFromAsset
 		(
 			activity.getAssets(),
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_GENERAL_URL +
-			id.co.jne.jnemobile.courier.variable.constant.UserInterface.FONT_PRIMARY_NAME
+			UserInterface.FONT_GENERAL_URL +
+			UserInterface.FONT_PRIMARY_NAME
 		);
 	}
 

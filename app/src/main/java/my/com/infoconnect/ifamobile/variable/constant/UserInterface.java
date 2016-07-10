@@ -8,8 +8,8 @@ public class UserInterface
     // FONT
 
     public static final String FONT_PRIMARY_NAME = "HelveticaNeue_55_Roman.ttf";
-    public static final String FONT_SECONDARY_NAME = "HelveticaNeue_35_Thin.ttf";
-    public static final String FONT_TERTIARY_NAME = "HelveticaNeue_47_Light_Italic.ttf";
+    public static final String FONT_SECONDARY_NAME = "HelveticaNeue_45_Light.ttf";
+    public static final String FONT_TERTIARY_NAME = "HelveticaNeue_35_Thin.ttf";
 
     public static final String FONT_GENERAL_URL = "fonts/";
 

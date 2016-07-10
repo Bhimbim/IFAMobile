@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/content_scrollView_withoutPadding"
+    tools:context=".activity.Home">
+
+    <LinearLayout
+        style="@style/general_vertical_matchWrap">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSender"
+            style="@style/paper_container">
+
+            <RelativeLayout
+                style="@style/paper_header">
+
+                <View
+                    android:id="@+id/viewHorn"
+                    style="@style/paper_horn"/>
+
+                <TextView
+                    android:id="@+id/textViewGuideInformationTitle"
+                    style="@style/paper_title"
+                    android:layout_toRightOf="@id/viewHorn"
+                    android:text="@string/guide_pdf"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <include
+            style="@style/general_relative_matchWrap"
+            layout="@layout/include_control_form"/>
+    </LinearLayout>
+
+</ScrollView>

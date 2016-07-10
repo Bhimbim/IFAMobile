@@ -9,9 +9,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import id.co.jne.jnemobile.courier.activity.History;
-import id.co.jne.jnemobile.courier.activity.OnProcess;
-import id.co.jne.jnemobile.courier.activity.Order;
+import my.com.infoconnect.ifamobile.activity.Prospect;
+import my.com.infoconnect.ifamobile.activity.ProspectAdd;
+import my.com.infoconnect.ifamobile.activity.ProspectSearch;
 
 
 // CLASS
@@ -19,18 +19,18 @@ import id.co.jne.jnemobile.courier.activity.Order;
 public class PagerAdapter extends FragmentStatePagerAdapter
 {
     int intPageSize;
-    private Order fragmentOrderList;
-    private OnProcess fragmentOnProcess;
-    private History fragmentHistory;
+    private ProspectSearch fragmentProspectList;
+    private ProspectAdd fragmentProspectAdd;
+//    private History fragmentHistory;
 
     public PagerAdapter(FragmentManager fm, int intPageSize)
     {
         super(fm);
         this.intPageSize = intPageSize;
 
-        fragmentOrderList = new Order();
-        fragmentOnProcess = new OnProcess();
-        fragmentHistory = new History();
+        fragmentProspectList = new ProspectSearch();
+        fragmentProspectAdd = new ProspectAdd();
+//        fragmentHistory = new History();
     }
 
 
@@ -41,11 +41,9 @@ public class PagerAdapter extends FragmentStatePagerAdapter
         switch (position)
         {
             case 0:
-                return fragmentOrderList;
+                return fragmentProspectList;
             case 1:
-                return fragmentOnProcess;
-            case 2:
-                return fragmentHistory;
+                return fragmentProspectAdd;
             default:
                 return null;
         }

@@ -1,8 +1,5 @@
 package my.com.infoconnect.ifamobile.activity;
 
-
-// IMPORT
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,25 +9,25 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 
-import id.co.jne.jnemobile.courier.R;
-import id.co.jne.jnemobile.courier.function.TypefaceGenerator;
-import id.co.jne.jnemobile.courier.variable.constant.UserInterface;
+import my.com.infoconnect.ifamobile.R;
+import my.com.infoconnect.ifamobile.function.TypefaceGenerator;
+import my.com.infoconnect.ifamobile.variable.constant.UserInterface;
 
-
-// ACTIVITY
-
+/**
+ * Created by ibrahimaziztejokusumo on 7/10/16.
+ */
 public class Login extends AppCompatActivity
 {
     // IMPORT
 
-        public TypefaceGenerator functionTypefaceGenerator;
-        // protected LinkGenerator functionLinkGenerator;
+    public TypefaceGenerator functionTypefaceGenerator;
+    // protected LinkGenerator functionLinkGenerator;
 
-        // LAYOUT
+    // LAYOUT
 
-        protected List<Integer> listTypefacePrimary = new ArrayList<Integer>();
-        protected List<Integer> listTypefaceSecondary = new ArrayList<Integer>();
-        protected List<Integer> listTypefaceTertiary = new ArrayList<Integer>();
+    protected List<Integer> listTypefacePrimary = new ArrayList<Integer>();
+    protected List<Integer> listTypefaceSecondary = new ArrayList<Integer>();
+    protected List<Integer> listTypefaceTertiary = new ArrayList<Integer>();
 
 
     // ON CREATE
@@ -58,9 +55,9 @@ public class Login extends AppCompatActivity
 
         // LAYOUT
 
-            // LAYOUT DECLARATION
+        // LAYOUT DECLARATION
 
-            Button buttonLogin = (Button) findViewById(R.id.buttonLogin);
+        Button buttonLogin = (Button) findViewById(R.id.buttonLogin);
 
 
         // EVENT

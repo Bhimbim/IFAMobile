@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutPageContainer"
+    style="@style/page_container"
+    tools:context=".activity.Prospect">
+
+    <LinearLayout
+        style="@style/general_vertical_matchParent">
+
+        <include
+            layout="@layout/include_header"
+            style="@style/include_header" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            style="@style/content_viewPager" />
+
+    </LinearLayout>
+
+</LinearLayout>

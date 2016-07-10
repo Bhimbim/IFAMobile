@@ -8,10 +8,10 @@
         android:id="@+id/linearLayoutFormDefaultControl"
         style="@style/button_container">
 
-        <ImageButton
-            android:id="@+id/imageButtonEdit"
-            style="@style/button_primary_small"
-            android:src="@drawable/icon_icon_edit"/>
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButtonEdit"-->
+            <!--style="@style/button_primary_small"-->
+            <!--android:src="@drawable/icon_icon_edit"/>-->
 
         <Button
             android:id="@+id/buttonNext"
@@ -27,8 +27,7 @@
 
         <ImageButton
             android:id="@+id/imageButtonReset"
-            style="@style/button_primary_small"
-            android:src="@drawable/icon_icon_edit"/>
+            style="@style/button_primary_small"/>
 
         <Button
             android:id="@+id/buttonDone"

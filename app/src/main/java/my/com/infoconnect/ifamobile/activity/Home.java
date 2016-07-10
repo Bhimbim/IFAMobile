@@ -1,31 +1,22 @@
-// PACKAGE
-
 package my.com.infoconnect.ifamobile.activity;
 
-
-// IMPORT
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.FrameLayout;
 
-import id.co.jne.jnemobile.courier.R;
-import id.co.jne.jnemobile.courier.decorator.DecoratorGeneral;
-import id.co.jne.jnemobile.courier.variable.object.Order;
+import my.com.infoconnect.ifamobile.R;
 
-
-// CLASS
-
-public class Home extends DecoratorGeneral
+/**
+ * Created by ibrahimaziztejokusumo on 7/10/16.
+ */
+public class Home extends AppCompatActivity
 {
-    // INITIALIZATION
-
-    private FrameLayout frameLayoutGuide;
-    private id.co.jne.jnemobile.courier.variable.object.Order objectOrder = null;
-
-
     // ONCREATE
 
     @Override
@@ -36,74 +27,19 @@ public class Home extends DecoratorGeneral
         super.onCreate(savedInstanceState);
         setContentView(R.layout.screen_home);
 
-
-        // TYPEFACE
-
-        //listTypefaceSecondary.add(R.id.editTextSearch);
-
-        initializeUserInterface();
-
-        //frameLayoutGuide = (FrameLayout) findViewById(R.id.includeGuide);
-
-        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        Button buttonProspect = (Button) findViewById(R.id.buttonProspect);
 
 
-        // LAYOUT SETTING
+        // EVENT
 
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener()
+        buttonProspect.setOnClickListener(new View.OnClickListener()
         {
             @Override
-            public void onTabSelected(TabLayout.Tab tab)
+            public void onClick(View v)
             {
-                viewPager.setCurrentItem(tab.getPosition());
-
-                if(tab.getPosition() == 1)
-                {
-                    if(getObjectOrder() == null)
-                    {
-                        //frameLayoutGuide.setVisibility(View.GONE);
-                    }
-                    else
-                    {
-                        //frameLayoutGuide.setVisibility(View.VISIBLE);
-
-                        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                        transaction.replace(R.id.relativeLayoutOnProcessFragmentcontainer, new SenderDetails());
-                        transaction.commit();
-                    }
-                }
-                else
-                {
-
-                }
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab)
-            {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab)
-            {
-
+                Intent GoToProspect = new Intent(Home.this, Prospect.class);
+                startActivity(GoToProspect);
             }
         });
-    }
-
-    public void switchTab(int intTabPosition)
-    {
-        viewPager.setCurrentItem(intTabPosition);
-    }
-
-    public Order getObjectOrder()
-    {
-        return objectOrder;
-    }
-
-    public void setObjectOrder(Order objectOrder)
-    {
-        this.objectOrder = objectOrder;
     }
 }

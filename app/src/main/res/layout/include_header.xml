@@ -6,21 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/general_vertical_matchWrap">
 
-    <RelativeLayout
-        style="@style/header_toolbar">
-
-        <ImageButton
-            android:id="@+id/imageButtonNavigation"
-            style="@style/button_navigation"
-            android:clickable="true"/>
-
-        <TextView
-            android:id="@+id/textViewToolbarTitle"
-            style="@style/header_title"
-            android:text="@string/title_home"/>
-
-    </RelativeLayout>
-
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         style="@style/header_tabLayout"

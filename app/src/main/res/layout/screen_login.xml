@@ -21,7 +21,6 @@
                 android:layout_marginTop="@dimen/general_padding_small"
                 android:layout_marginBottom="@dimen/general_padding_small"
                 style="@style/editText_singleLine_rightIcon"
-                android:drawableRight="@drawable/input_user"
                 android:hint="@string/hint_user_name"/>
 
             <EditText
@@ -29,7 +28,6 @@
                 android:layout_marginTop="@dimen/general_padding_small"
                 android:layout_marginBottom="@dimen/general_padding_small"
                 style="@style/editText_singleLine_rightIcon"
-                android:drawableRight="@drawable/input_password"
                 android:hint="@string/hint_user_password"/>
 
             <Button

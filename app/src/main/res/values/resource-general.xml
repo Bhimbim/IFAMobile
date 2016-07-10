@@ -1,0 +1,38 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <!-- THEME -->
+    
+    <color name="theme_primary">#873033</color>			<!-- PURE PURPLE -->
+    <color name="theme_secondary">#731c22</color>		<!-- HEAVY PURLE -->
+    <color name="theme_tertiary">#731719</color>		<!-- DARK PURPLE -->
+    <color name="theme_quaternary">#9b4447</color>		<!-- LIGHT PURPLE -->
+    <color name="theme_quinary">#FFFFFF</color>			<!-- WHITE -->
+    <color name="general_transparent">#00ffffff</color>	<!-- TRANSPARENT -->
+    <color name="general_progressScreen">#85000000</color>
+    
+    
+    <!-- GENERAL DIMEN -->
+    
+    <dimen name="general_margin_small">10dp</dimen>
+    <dimen name="general_margin_medium">20dp</dimen>
+    <dimen name="general_margin_large">30dp</dimen>
+    <dimen name="general_padding_small">5dp</dimen>
+    <dimen name="general_padding_medium">10dp</dimen>
+    <dimen name="general_padding_large">20dp</dimen>
+
+    
+    <!-- LINE SIZE -->
+    
+    <dimen name="line_thin_height">1dp</dimen>
+    <dimen name="line_thick_height">6dp</dimen>
+
+
+    <!-- ICON SIZE -->
+
+    <dimen name="icon_size_tiny">24dp</dimen>
+    <dimen name="icon_size_small">36dp</dimen>
+    <dimen name="icon_size_medium">48dp</dimen>
+    <dimen name="icon_size_large">72dp</dimen>
+    <dimen name="icon_size_huge">96dp</dimen>
+    
+</resources>

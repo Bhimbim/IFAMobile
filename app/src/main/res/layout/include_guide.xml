@@ -15,13 +15,15 @@
             style="@style/guide_line"/>
 
         <View
-            android:id="@+id/viewLineMiddle"
+            android:id="@+id/viewLineMiddleSt"
             style="@style/guide_line"/>
 
         <View
+            android:id="@+id/viewLineMiddleNd"
+            style="@style/guide_line"/>
+        <View
             android:id="@+id/viewLineRight"
             style="@style/guide_line"/>
-
         <View
             style="@style/guide_line_space"/>
 
@@ -31,66 +33,83 @@
         style="@style/guide_indicator_container">
 
         <LinearLayout
-            android:id="@+id/linearLayoutSenderGuide"
+            android:id="@+id/linearLayoutInformationGuide"
             style="@style/indicator_item_container">
 
             <TextView
-                android:id="@+id/textViewSenderIcon"
+                android:id="@+id/textViewInformationIcon"
                 style="@style/indicator_icon"
                 android:text="@string/guide_1"/>
 
             <TextView
-                android:id="@+id/textViewSenderTitle"
+                android:id="@+id/textViewInformationTitle"
                 style="@style/indicator_title"
-                android:text="@string/guide_sender"/>
+                android:text="@string/guide_information"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayoutRecipientGuide"
+            android:id="@+id/linearLayoutFinancialGuide"
             style="@style/indicator_item_container">
 
             <TextView
-                android:id="@+id/textViewRecipientIcon"
+                android:id="@+id/textViewFinancialIcon"
                 style="@style/indicator_icon"
                 android:text="@string/guide_2"/>
 
             <TextView
-                android:id="@+id/textViewRecipientTitle"
+                android:id="@+id/textViewFinancialTitle"
                 style="@style/indicator_title"
-                android:text="@string/guide_recipient"/>
+                android:text="@string/guide_financial"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayoutPackageGuide"
+            android:id="@+id/linearLayoutDetailGuide"
             style="@style/indicator_item_container">
 
             <TextView
-                android:id="@+id/textViewPackageIcon"
+                android:id="@+id/textViewDetailIcon"
                 style="@style/indicator_icon"
                 android:text="@string/guide_3"/>
 
             <TextView
-                android:id="@+id/textViewPackageTitle"
+                android:id="@+id/textViewDetailTitle"
                 style="@style/indicator_title"
-                android:text="@string/guide_package"/>
+                android:text="@string/guide_detail"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayoutPayment"
+            android:id="@+id/linearLayoutAnalyst"
             style="@style/indicator_item_container">
 
             <TextView
-                android:id="@+id/textViewPaymentIcon"
+                android:id="@+id/textViewAnalystIcon"
                 style="@style/indicator_icon"
                 android:text="@string/guide_4"/>
 
             <TextView
-                android:id="@+id/textViewPaymentTitle"
+                android:id="@+id/textViewAnalystTitle"
                 style="@style/indicator_title"
-                android:text="@string/guide_payment"/>
+                android:text="@string/guide_analyst"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPdf"
+            style="@style/indicator_item_container">
+
+            <TextView
+                android:id="@+id/textViewPdfIcon"
+                style="@style/indicator_icon"
+                android:text="@string/guide_5"/>
+
+            <TextView
+                android:id="@+id/textViewPdfTitle"
+                style="@style/indicator_title"
+                android:text="@string/guide_pdf"/>
 
         </LinearLayout>
 

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayoutPageContainer"
-    style="@style/page_container"
-    tools:context=".activity.Home">
-
-    <include
-        android:id="@+id/includeNavigation"
-        layout="@layout/include_navigation"
-        style="@style/include_navigation" />
+    tools:context=".activity.Home"
+    style="@style/general_relative_matchParent"
+    android:background="@color/theme_primary">
 
     <LinearLayout
-        style="@style/general_vertical_matchParent">
+        style="@style/login_container">
 
-        <include
-            layout="@layout/include_header"
-            style="@style/include_header" />
+        <ImageView
+            style="@style/logo_login"/>
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/viewPager"
-            style="@style/content_viewPager" />
+        <LinearLayout
+            style="@style/form_login">
+
+            <Button
+                android:id="@+id/buttonProspect"
+                style="@style/button_primary_medium"
+                android:text="@string/button_prospect"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>
