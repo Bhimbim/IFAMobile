@@ -5,8 +5,8 @@
 	<style name="ThemeViola.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
 		<item name="windowNoTitle">true</item>
 		<item name="windowActionBar">false</item>
-		<item name="colorPrimaryDark">#353087</item>
-		<item name="colorAccent">#211c73</item>
+		<item name="colorPrimaryDark">@color/theme_primary</item>
+		<item name="colorAccent">@color/theme_secondary</item>
 	</style>
 
 	<style name="ThemeViola" parent="ThemeViola.Base">
@@ -240,10 +240,13 @@
 	</style>
 
 	<style name="logo_login">
-		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_alignParentTop">true</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_marginTop">@dimen/general_margin_large</item>
+		<item name="android:layout_marginLeft">@dimen/general_margin_large</item>
+		<item name="android:layout_width">wrap_content</item>
 		<item name="android:layout_height">wrap_content</item>
-		<!--<item name="android:src">@drawable/logo_login_courier</item>-->
-		<item name="android:scaleType">fitXY</item>
+		<item name="android:src">@drawable/icon_logo_login</item>
 	</style>
 
 	<style name="icon_packageType">

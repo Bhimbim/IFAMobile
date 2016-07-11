@@ -7,8 +7,12 @@
     <color name="theme_tertiary">#731719</color>		<!-- DARK PURPLE -->
     <color name="theme_quaternary">#9b4447</color>		<!-- LIGHT PURPLE -->
     <color name="theme_quinary">#FFFFFF</color>			<!-- WHITE -->
+    <color name="theme_senary">#5a5a5a</color>          <!-- DARK GREY -->
+    <color name="theme_septenary">#787878</color>       <!-- MEDIUM GREY -->
+    <color name="theme_octonary">#969696</color>        <!-- LIGHT GREY -->
     <color name="general_transparent">#00ffffff</color>	<!-- TRANSPARENT -->
     <color name="general_progressScreen">#85000000</color>
+    <color name="general_transparent_login">#20ffffff</color>
     
     
     <!-- GENERAL DIMEN -->

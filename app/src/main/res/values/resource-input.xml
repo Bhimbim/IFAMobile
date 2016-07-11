@@ -3,7 +3,13 @@
     <!-- GENERAL -->
     
     <dimen name="input_singleLine_height">36dp</dimen>
-    <dimen name="input_multiLine_height">48dp</dimen>
+    <dimen name="input_multiLine_height">72dp</dimen>
+    <dimen name="input_border_radius">2dp</dimen>
+    <dimen name="input_border_width">1dp</dimen>
+
+    <!-- EDIT TEXT -->
+
+    <dimen name="editText_login_width">240dp</dimen>
 
 
     <!-- SPINNER -->

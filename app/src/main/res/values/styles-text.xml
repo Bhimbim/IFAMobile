@@ -28,7 +28,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/text_size_tiny</item>
+        <item name="android:textSize">@dimen/text_size_enormous</item>
         <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:gravity">center</item>
     </style>
@@ -45,8 +45,21 @@
 		<item name="android:textAllCaps">true</item>
     </style>
 
+		<!-- LOGIN -->
+
+		<style name="paper_login_title">
+			<item name="android:layout_gravity">center_horizontal</item>
+			<item name="android:layout_width">wrap_content</item>
+			<item name="android:layout_height">wrap_content</item>
+			<item name="android:textSize">@dimen/text_size_enormous</item>
+			<item name="android:textColor">@color/theme_quinary</item>
+			<item name="android:textAllCaps">true</item>
+		</style>
+
 
 	<!-- NAVIGATION -->
+
+
 
 	<style name="navigation_name">
 		<item name="android:layout_width">wrap_content</item>

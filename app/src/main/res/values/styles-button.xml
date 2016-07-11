@@ -14,9 +14,18 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
-    <!-- BUTTON BY DISPLAY -->
+    <!-- BUTTON NAVIGATION -->
 
-    <style name="button_navigation">
+    <style name="button_navigation_login">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textColor">@color/theme_quinary</item>
+        <item name="android:background">@color/general_transparent</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="button_navigation_general">
         <item name="android:layout_gravity">left|center_vertical</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_alignParentLeft">true</item>
@@ -25,6 +34,9 @@
         <!--<item name="android:src">@drawable/icon_navigation</item>-->
         <item name="android:background">@color/general_transparent</item>
     </style>
+
+
+    <!-- BUTTON BY DISPLAY -->
 
     <style name="button_expand">
         <item name="android:layout_alignParentRight">true</item>
@@ -62,11 +74,11 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">@dimen/button_width_medium</item>
         <item name="android:layout_height">@dimen/button_height_medium</item>
-        <item name="android:textColor">@color/theme_quaternary</item>
+        <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <!--<item name="android:background">@drawable/button_primary</item>-->
+        <item name="android:background">@drawable/button_primary</item>
     </style>
 
     <style name="button_primary_small">
@@ -75,11 +87,11 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">@dimen/button_height_medium</item>
         <item name="android:layout_height">@dimen/button_height_medium</item>
-        <item name="android:textColor">@color/theme_quaternary</item>
+        <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <!--<item name="android:background">@drawable/button_primary</item>-->
+        <item name="android:background">@drawable/button_primary</item>
     </style>
 
     <style name="button_primary_large">
@@ -88,11 +100,11 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/button_height_medium</item>
-        <item name="android:textColor">@color/theme_quaternary</item>
+        <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <!--<item name="android:background">@drawable/button_primary</item>-->
+        <item name="android:background">@drawable/button_primary</item>
     </style>
 
     <style name="button_primary_wrapContent">
@@ -101,11 +113,11 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/button_height_medium</item>
-        <item name="android:textColor">@color/theme_quaternary</item>
+        <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <!--<item name="android:background">@drawable/button_primary</item>-->
+        <item name="android:background">@drawable/button_primary</item>
     </style>
 
     <style name="button_primary_weight">
@@ -114,11 +126,11 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">0px</item>
         <item name="android:layout_height">@dimen/button_height_medium</item>
-        <item name="android:textColor">@color/theme_quaternary</item>
+        <item name="android:textColor">@color/theme_quinary</item>
         <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
-        <!--<item name="android:background">@drawable/button_primary</item>-->
+        <item name="android:background">@drawable/button_primary</item>
     </style>
 
 </resources>

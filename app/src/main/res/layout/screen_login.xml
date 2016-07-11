@@ -5,29 +5,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".activity.Login"
     style="@style/general_relative_matchParent"
-    android:background="@color/theme_primary">
+    android:background="@drawable/photo_login_background">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        style="@style/logo_login"/>
+
+    <LinearLayout
+        style="@style/navigation_login_container">
+
+        <Button
+            android:id="@+id/buttonForgotPassword"
+            style="@style/button_navigation_login"
+            android:text="Forgot Password"/>
+
+        <Button
+            android:id="@+id/buttonHelp"
+            style="@style/button_navigation_login"
+            android:text="Help"/>
+
+    </LinearLayout>
 
     <LinearLayout
         style="@style/login_container">
 
-        <ImageView
-            style="@style/logo_login"/>
+        <TextView
+            android:id="@+id/textViewWelcome"
+            style="@style/paper_login_title"
+            android:text="Welcome"/>
 
         <LinearLayout
-            style="@style/form_login">
+            style="@style/login_form">
 
             <EditText
                 android:id="@+id/editTextUserName"
                 android:layout_marginTop="@dimen/general_padding_small"
                 android:layout_marginBottom="@dimen/general_padding_small"
-                style="@style/editText_singleLine_rightIcon"
+                style="@style/editText_singleLine_login"
                 android:hint="@string/hint_user_name"/>
 
             <EditText
                 android:id="@+id/editTextPassword"
                 android:layout_marginTop="@dimen/general_padding_small"
                 android:layout_marginBottom="@dimen/general_padding_small"
-                style="@style/editText_singleLine_rightIcon"
+                style="@style/editText_singleLine_login"
                 android:hint="@string/hint_user_password"/>
 
             <Button

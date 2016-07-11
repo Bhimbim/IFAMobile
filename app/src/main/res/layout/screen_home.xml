@@ -14,7 +14,7 @@
             style="@style/logo_login"/>
 
         <LinearLayout
-            style="@style/form_login">
+            style="@style/general_relative_wrapContent">
 
             <Button
                 android:id="@+id/buttonProspect"
