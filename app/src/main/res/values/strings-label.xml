@@ -4,11 +4,51 @@
 	
     <!-- MENU / TITLE -->
 
+    <string name="title_login_welcomeback">Welcome Back</string>
     <string name="title_home">Home</string>
     <string name="title_prospect">Prospect</string>
+    <string name="title_educationplan_detailinformation">Educational Details</string>
+    <string name="title_financialplan_factfindingquestionnaire">Fact Finding Questionnaire</string>
+    <string name="title_financialplan_dontknowriskprofile">If you do not know your personal risk profile, please check by answering the following questions.</string>
+    <string name="title_financialplan_declaration">Declaration</string>
+    <string name="title_financialplan_confirmation">Confirmation</string>
+    <string name="title_educationplan_basicinformation">Basic Information</string>
+    <string name="title_educationplan_fundneeded">Total Education Fund Available</string>
+    <string name="title_educationplan_fundavailable">Total Education Fund Required</string>
+    <string name="title_educationplan_balance"></string>
+    <string name="title_profile_agentinformation">Agent Information</string>
+    <string name="title_prospect_profile">Prospect profile</string>
+    <string name="title_prospect_existingfinancialplan">Existing financial plan</string>
+    <string name="title_plan_education">Education Plan</string>
+    <string name="title_plan_savings">Savings Plan</string>
+    <string name="title_plan_investment">Investment Plan</string>
+    <string name="title_plan_healthcare">Healthcare Plan</string>
+    <string name="title_plan_life">Life Plan</string>
+    <string name="title_plan_retirement">Retirement Plan</string>
+    <string name="title_plan_income">Income Plan</string>
+
+    <string name="header_prospect_title">Prospect Dashboard</string>
+    <string name="header_prospect_description">Manage new prospect or existing prospect along with their financial plan</string>
 
     <string name="tab_prospect_search">Search</string>
     <string name="tab_prospect_add">Add</string>
+
+
+    <!--GUIDE-->
+
+    <string name="guide_generalinformation_step">1</string>
+    <string name="guide_financialplan_step">2</string>
+    <string name="guide_detailinformation_step">3</string>
+    <string name="guide_factfindingquestionnaire_step">4</string>
+    <string name="guide_analysisresult_step">5</string>
+    <string name="guide_pdfresult_step">6</string>
+
+    <string name="guide_generalinformation_detail">General Information</string>
+    <string name="guide_financialplan_detail">Financial Plan</string>
+    <string name="guide_detailinformation_detail">Detail information</string>
+    <string name="guide_factfindingquestionnaire_detail">Fact Finding Questionare</string>
+    <string name="guide_analysisresult_detail">Analysis Result</string>
+    <string name="guide_pdfresult_detail">PDF Result</string>
 
     <string name="guide_1">1</string>
     <string name="guide_2">2</string>
@@ -22,54 +62,60 @@
     <string name="guide_analyst">Analyst Result</string>
     <string name="guide_pdf">Pdf Result</string>
 
-    
-    <!-- PROGRESS SCREEN -->
-    
-    <string name="progress_progress">Please wait while your request is being processed.</string>
-    <string name="conjunction_list">\u0020-\u0020</string>
 
-    
+    <!--NAVIGATION-->
+
+    <string name="navigation_prospect">Prospect</string>
+    <string name="navigation_calendar">Calendar</string>
+    <string name="navigation_mail">Mail</string>
+    <string name="navigation_note">Note</string>
+    <string name="navigation_forgotpassword">Forgot Password</string>
+    <string name="navigation_help">Help</string>
+
+
+    <!--PROFILE-->
+
+    <string name="profile_agent_defaultname">"Andy Phan</string>
+    <string name="profile_agent_signout">Sign out</string>
+    <string name="profile_agent_defaultphoto">"Photo Andy Phan</string>
+
+
+    <!--OPTION-->
+
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+    <string name="option_volatile">Volatile</string>
+    <string name="option_stable">Stable</string>
+    <string name="option_conservative">Conservative</string>
+    <string name="option_moderate">Moderate</string>
+    <string name="option_aggressive">Aggressive</string>
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+    <string name="option_mr">Mr. </string>
+    <string name="option_mrs">Mrs. </string>
+    <string name="option_ms">Ms. </string>
+    <string name="option_mss">Mss. </string>
+
+
     <!-- BUTTON -->
-    
-    <string name="button_login">Login</string>
+
+    <string name="button_login">Sign In</string>
     <string name="button_prospect">Prospect</string>
     <string name="button_exit">Exit</string>
     <string name="button_logout">Logout</string>
     <string name="button_back">Back</string>
     <string name="button_cancel">Cancel</string>
-    <string name="button_confirmation">Confirmation</string>
-    <string name="button_change">Change</string>
-    <string name="button_reset">Reset</string>
-    <string name="button_preview">Preview</string>
-    <string name="button_send">Sebd</string>
-    <string name="button_save">Save</string>
-    <string name="button_add">Add</string>
-    <string name="button_delete">Delete</string>
-    <string name="button_next">Next</string>
-    <string name="button_bill">Bill</string>
-    <string name="button_print">Print</string>
-    <string name="button_viewLocation">View Location</string>
-    <string name="button_getCurrentLocation">Get Current Location</string>
-    <string name="button_pickLocation">Pick Location</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_sign">Signature</string>
+    <string name="button_share">Share</string>
+    <string name="button_add">Add new</string>
     <string name="button_done">Done</string>
-    <string name="button_takeOrder">Take Order !</string>
 
 
-    <!-- ALERT -->
+    <!--FOOTER-->
 
-    <string name="alert_payment_confirmation">Alert Payment</string>
-    <string name="alert_map_getLocation">Alert Get Current Location</string>
-    <string name="alert_list_orderTitle">No Available Pick Up Delivery</string>
-    <string name="alert_list_orderContent">There are no available order</string>
-    <string name="alert_list_historyTitle">No History</string>
-    <string name="alert_list_historyContent">Please take order from order list</string>
-    <string name="alert_list_onProcessTitle">No Delivery On Process</string>
-    <string name="alert_list_onProcessContent">Please take order from order list</string>
-
-
-    <!-- PROFILE -->
-
-    <string name="profile_name_default">Peter Parker</string>
-    <string name="profile_position_default">Courier</string>
-
+    <string name="label_footerleft_header">IFA (Financial Analyst) Mobile \nversion 1.0.0</string>
+    <string name="label_footerleft_detail">copyright 2016 InfoConnect Sdn Bhd all rights reserved</string>
+    <string name="label_footerright_header">InfoConnect Sdn Bhd</string>
+    <string name="label_footerright_detail">15B, SS Street 22/23 Damansara Jaya\n47400 Petaling Jaya, Selangur Darul Ehsan</string>
 </resources>

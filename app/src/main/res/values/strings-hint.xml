@@ -2,74 +2,32 @@
 
 <resources>
 
-    <!-- LOGIN -->
+    <!-- PLACEHOLDER -->
 
+    <string name="placeholder_agent_code">agent code</string>
+    <string name="placeholder_agent_password">agent password</string>
+    <string name="placeholder_planname">Your financial plan name</string>
+    <string name="placeholder_payorname">Please input your payor name</string>
+    <string name="placeholder_entrydatetouniversity">How old is your child when enter university</string>
 
-
-    
-    <!-- FINANCIAL -->
-
-        <!-- GENERAL -->
-
-        <string name="hint_search_order">search order by name or address</string>
-        <string name="hint_user_name">Input your username</string>
-        <string name="hint_user_password">Input your passworde</string>
-
-        <!-- TRANSFER -->
-
-        <string name="hint_transferCatagory_form">a</string>
-        <string name="hint_destinationBank_form">Pick destination bank</string>
-        <string name="hint_destinationAccount_form">Input new destination account</string>
-        <string name="hint_destinationAccount_add">Input new destination account</string>
-        <string name="hint_amount_form">Amount of money to be proceed</string>
-        <string name="hint_accountHolder_form">Input account holder name</string>
-        <string name="hint_accountHolder_add">Input account holder name</string>
-
-        <string name="prompt_transferCatagory_form">b</string>
-        <string name="prompt_destinationBank_form">Choose destination bank below</string>
-        <string name="prompt_destinationAccount_form">Choose destination account below</string>
-
-        <!-- PURCHASE -->
-
-        <string name="hint_purchaseCatagory_form">c</string>
-        <string name="hint_purchaseDenom_form">Pick credit denom</string>
-        <string name="hint_telephoneNumber_form">Input your phonenumber</string>
-        <string name="hint_telephoneNumber_add">Input new phonenumber</string>
-
-        <string name="prompt_purchaseCatagory_form">d</string>
-        <string name="prompt_telephoneNumber_form">Choose phone number below</string>
-        <string name="prompt_purchaseDenom_form">Choose topup denom below</string>
-
-        <!-- PAYMENT -->
-
-        <string name="hint_paymentCatagory_form">e</string>
-        <string name="hint_biller_form">Biller name</string>
-        <string name="hint_customerNumber_form">Customer number</string>
-        <string name="hint_customerNumber_add">Input new customer id</string>
-
-        <string name="prompt_paymentCatagory_Form">f</string>
-        <string name="prompt_biller_form">Choose biller name below</string>
-        <string name="prompt_customerNumber_form">Choose customer id below</string>
-
-    
-    <!-- NON FINANCIAL -->
-
-        <!-- SETTING -->
-
-        <string name="hint_password">Input your password</string>
-        <string name="hint_oldPassword_form">Entry old password</string>
-        <string name="hint_newPassword_form">Entry new password</string>
-        <string name="hint_confirmPassword_form">Entry new password again</string>
-        <string name="hint_connectionType">Choose connection type</string>
-
-        <string name="prompt_connectionType">Choose connection type below</string>
-
-        <!-- OTHER SERVICES -->
-
-        <string name="hint_commentTitle_form">Input your password</string>
-        <string name="hint_commentContent_form">Entry old password</string>
-        <string name="hint_currency_form">Entry new password</string>
-
-        <string name="prompt_currency_form">Choose connection type below</string>
-    
+    <string name="placeholder_totalannualcostasattodayvalue">Total annual cost based on today value</string>
+    <string name="placeholder_totalannuallivingexpenses">The total annual living expenses</string>
+    <string name="placeholder_lumsumpsavings">Your lum sump savings</string>
+    <string name="placeholder_regularannualsavings">Your regular annual savings</string>
+    <string name="placeholder_existingsavingsprograms">Your existing saving programs</string>
+    <string name="placeholder_actualtotaleducation">Actual total education</string>
+    <string name="placeholder_inflationrate">Inflation rate</string>
+    <string name="placeholder_expectedrateofreturn">The expected rate of return</string>
+    <string name="placeholder_client_name">Input the client's name</string>
+    <string name="placeholder_client_number">Input the client's NIRC number</string>
+    <string name="placeholder_associate_name">Input the agent's name</string>
+    <string name="placeholder_name">What is your name ?</string>
+    <string name="placeholder_contactnumber">How we gonna call you ?</string>
+    <string name="placeholder_address">Where do you live now ?</string>
+    <string name="placeholder_email">Your relgularly checked email</string>
+    <string name="placeholder_findprospect">Find prospect by address, name or email</string>
+    <string name="placeholder_birthday">When is your birthday ?</string>
+    <string name="placeholder_title">Title</string>
+    <string name="placeholder_entryagetouniversity">Age</string>
+    <string name="information_disclaimerclause">1. I, the undersigned, hereby authorize the undersigned Associate(s) of Great Vision (GV) to submit any personal information contained herein to GV, who will perform an analysis of and prepare a proposal on the recommended solutions based on the information given herein. \n 2. I  understand that, GV and the Associate(s) will treat my personal information in strict confidentiality, but not limited to the disclosure of such information to the relevant consultant(s) and employee(s) of GV in the normal course of performing their respective function(s). \n 3. I hereby understand that any analysis and proposals that are submitted to me by GV or the Associate(s) are for reference and / or illustration purposes only prior to the implementation of the said recommended solutions without the further involvement of the Associate. \n 4. I  shall not hold  GV or the Associate(s) responsible for any outcome whatsoever in the event that I  proceed with the implementation of the proposal without their said involvement. \n 5. I confirm that the above information provided in this Questionnaire is correct and true.  In the event of any changes to or cancellation of any of my personal information as already given herein,  I shall keep GV informed in writing of such developments as it may affect the analysis process. \n 6. I hereby irrevocably agree to indemnify GV and the Associate(s) against all claims and waive all claims and rights that I may have against GV, its employees, consultants and Associate(s). \n 7. GV reserves the right to reject any request for analysis or development of financial solutions upon submission of this Questionnaire for whatsoever reasons thereof.</string>
 </resources>

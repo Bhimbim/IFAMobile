@@ -20,22 +20,19 @@ public class UserInterface
     public static final String TOAST_DURATION_LONG = "Long";
 
 
-    // CONNECTION
+    // SOURCE
 
-    public static final String CONNECTION_TYPE_SMS = "SMS";
-    public static final String CONNECTION_TYPE_USSD = "USSD";
-    public static final String CONNECTION_TYPE_GPRS = "GPRS";
+    public static final String PHOTO_PROFILE_SMALL = "Photo Profile Small";
+    public static final String PHOTO_PROFILE_LARGE = "Photo Profile Large";
 
+    public static int TAG_BUTTON_AGENTPROFILE = 5;
+    public static int TAG_BUTTON_NAVIGATIONPROSPECT = 1;
+    public static int TAG_BUTTON_ADDPROSPECT = 3;
+    public static int TAG_BUTTON_FINDPROSPECT = 4;
 
-    // LAYOUT
-
-    public static int NavigationAnimationDuration = 600;
-    public static final String IMAGE_RESOURCE_SMALL = "Small";
-    public static final String IMAGE_RESOURCE_LARGE = "Large";
-
-
-    // MAP
-
-    public static final Long LOCATION_REFRESH_TIME = Long.valueOf(5000);
-    public static final Float LOCATION_REFRESH_DISTANCE = Float.valueOf(1);
+    public static int TAG_GUIDE_STEP1 = 10 + 0;
+    public static int TAG_GUIDE_STEP2 = 10 + 1;
+    public static int TAG_GUIDE_STEP3 = 10 + 2;
+    public static int TAG_GUIDE_STEP4 = 10 + 3;
+    public static int TAG_GUIDE_STEP5 = 10 + 4;
 }

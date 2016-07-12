@@ -1,71 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <!--FIELD    -->
 
-    <!-- LOGIN -->
+        <!--PLAN-->
+        <string name="field_planname">Plan name</string>
+        <string name="field_entryagetouniversity">Entry age to university</string>
+        <string name="field_totalannualcostasattodayvalue">Total annual cost as at today value</string>
+        <string name="field_totalannuallivingexpenses">Total annual living expenses</string>
+        <string name="field_lumsumpsavings">Lum sump saving</string>
+        <string name="field_regularannualsavings">Regular annual savings</string>
+        <string name="field_existingsavingsprograms">Existing savings programs</string>
+        <string name="field_actualtotaleducation">Actual total education</string>
 
-    <string name="field_username">Username</string>
-    <string name="field_password">Password</string>
+        <string name="field_inflationrate">Inflation rate</string>
+        <string name="field_expectedrateofreturn">Expected rate of return</string>
+        <string name="field_planningmeetchildrenseducationgoal">Is your current planning able to meet your childrens' education goal ?</string>
+        <string name="field_maximizetaxadvantages">Are you maximising your tax advantages ?</string>
+        <string name="field_solutionprotection">Would you prefer a protected or unprotected solution </string>
+        <string name="field_protectionreturn">If your choice is protected savings/investment scheme, would you prefer a volatile or stable return ?</string>
+        <string name="field_riskprofile">What is your risk profile ?</string>
+        <string name="field_allocationpermonth">Allocation per month</string>
 
+        <!--CLIENT-->
+        <string name="field_clientname">I</string>
+        <string name="field_clientnumber">NRIC number </string>
+        <string name="field_clientstatement"> have read, understood and accepted the above terms and conditions</string>
+        <string name="field_clientsignature">Client's signature</string>
 
-    <!-- ORDER -->
+        <!--ASSOCIATE-->
+        <string name="field_associatename">Associate's name</string>
+        <string name="field_associatesignature">Associate's signature</string>
 
-        <!-- SENDER & RECIPIENTS -->
+        <!--DATE-->
+        <string name="field_date_declaration">Date</string>
+        <string name="field_date_monday">Monday</string>
+        <string name="field_date_tuesday">Tuesday</string>
+        <string name="field_date_wednesday">Wednesday</string>
+        <string name="field_date_thursday">Thursday</string>
+        <string name="field_date_friday">Friday</string>
+        <string name="field_date_saturday">Saturday</string>
+        <string name="field_date_sunday">Sunday</string>
+        <string name="field_date_mon">Mon</string>
+        <string name="field_date_tue">Tue</string>
+        <string name="field_date_wed">Tue</string>
+        <string name="field_date_thu">Thu</string>
+        <string name="field_date_fri">Fri</string>
+        <string name="field_date_sat">Sat</string>
+        <string name="field_date_sun">Sun</string>
 
+        <!--OTHERS-->
         <string name="field_name">Name</string>
-        <string name="field_province">Province</string>
-        <string name="field_city">City</string>
-        <string name="field_postalCode">Postal Code</string>
+        <string name="field_age">Age</string>
+        <string name="field_payorname">Payor name</string>
+        <string name="field_date">Date</string>
+        <string name="field_tertiaryage">Child tertiary education age</string>
+        <string name="field_courseduration">Course duration</string>
+        <string name="field_coursefee">Annual tuition fee</string>
+
+        <string name="field_livingexpenses">Annual living expenses</string>
+        <string name="field_totaleducationfundneeded">Total education fund Required</string>
+        <string name="field_regularmonthlysavings">Regular Month savings</string>
+        <string name="field_returnatmaturityage">Return at maturity age</string>
+        <string name="field_totaleducationfundavailable">Total education fund available</string>
+        <string name="field_lumsumpinvestment">Lum sump investment</string>
+        <string name="field_expectedreturn">Expected return</string>
+
+        <string name="field_birthday">Birthday</string>
+        <string name="field_gender">Gender</string>
+        <string name="field_contactnumber">Contact number</string>
         <string name="field_address">Address</string>
-        <string name="field_latitude">Latitude</string>
-        <string name="field_longitude">Longitude</string>
-        <string name="field_hint">Hint</string>
-        <string name="field_telephone">Telephone</string>
-        <string name="field_mobileTelephone">Mobile Telephone</string>
+        <string name="field_email">Email</string>
+        <string name="field_childname">Child name</string>
+        <string name="field_additionaleducationfund">Additional education fund</string>
 
-        <!-- PACKAGE -->
+        <string name="field_numberofyears">Number of years</string>
+        <string name="field_additionalregularsavings">Additional regular savings</string>
+        <string name="field_annualreturnrate">Annual return rate</string>
+        <string name="field_welcomeback">Welcome back, </string>
+        <string name="field_agentcode">Code</string>
 
-        <string name="field_description">Description</string>
-        <string name="field_serviceType">Service Type</string>
-        <string name="field_packageType">Package Type</string>
-        <string name="field_weight">Weight in Kilogram</string>
-        <string name="field_long">Long in Centimeter</string>
-        <string name="field_width">Width in Centimeter</string>
-        <string name="field_tall">Tall in Centimeter</string>
-        <string name="field_specificInstruction">Specific Instruction</string>
-        <string name="field_note">Note</string>
-        <string name="field_packageValue">Package Value</string>
+        <string name="field_branch">Branch</string>
+        <string name="field_area">Area</string>
+        <string name="field_kcu">KCU</string>
+        <string name="field_channelname">Channel name</string>
+        <string name="field_supervisor">Supervisor</string>
 
-        <!-- PAYMENT -->
-
-        <string name="field_pickTelephone">Pick Telephone</string>
-        <string name="field_totalPackage">Total Package</string>
-        <string name="field_deliveryCost">Delivery Cost</string>
-        <string name="field_otherCosts">Other Costs</string>
-        <string name="field_insurance">Insurance</string>
-        <string name="field_insuranceAdmin">Insurance Admin</string>
-        <string name="field_pickUpCost">Pick Up Cost</string>
-        <string name="field_totalCost">Total Cost</string>
-
-
-    <!-- NAVIGATION -->
-
-        <!-- PROFILE -->
-
-        <string name="field_connectionType_form">Connection type</string>
-        <string name="field_password_form">Password</string>
-        <string name="field_oldPassword_form">Old password</string>
-        <string name="field_newPassword_form">New password</string>
-        <string name="field_confirmPassword_form">Confirm new password</string>
-        <string name="field_sourceAccount_list">List Source Account</string>
-        <string name="field_transfer_list">List Destination Account</string>
-        <string name="field_payment_list">List Customer</string>
-        <string name="field_purchase_list">List Phone No</string>
-
-        <!-- CHANGE PASSWORD -->
-
-        <string name="field_password_current">Password</string>
-        <string name="field_password_new">New Password</string>
-        <string name="field_password_confirmation">Confirm New Password</string>
-
+        <string name="field_state">State</string>
+        <string name="field_activedate">Active date</string>
+        <string name="field_expireddate">Expired date</string>
+        <string name="field_findprospect">Find existing prospect</string>
+        <string name="field_foundprospect">Found 12 prospect based on your description</string>
+        <string name="field_todaysplan">Today's plan</string>
 </resources>
