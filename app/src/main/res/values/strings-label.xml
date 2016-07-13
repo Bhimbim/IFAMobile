@@ -102,6 +102,7 @@
     <string name="button_login">Sign In</string>
     <string name="button_prospect">Prospect</string>
     <string name="button_exit">Exit</string>
+    <string name="button_next">Next</string>
     <string name="button_logout">Logout</string>
     <string name="button_back">Back</string>
     <string name="button_cancel">Cancel</string>

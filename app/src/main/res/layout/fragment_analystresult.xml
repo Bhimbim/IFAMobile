@@ -28,7 +28,9 @@
 
             </RelativeLayout>
 
-
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
+                style="@style/chart_size"/>
 
         </LinearLayout>
         <include

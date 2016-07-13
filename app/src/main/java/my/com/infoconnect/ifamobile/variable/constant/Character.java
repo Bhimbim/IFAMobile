@@ -11,4 +11,5 @@ public class Character
     public static final String CHARACTER_TWODOT = ":";
     public static final String CHARACTER_NEWLINE = "\n";
     public static final String CHARACTER_DATABASE_SEPARATOR = " \\ ";
+    public static final String CHARACTER_LOG_SEPARATOR = " : ";
 }

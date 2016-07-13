@@ -15,7 +15,7 @@
 
         <string name="field_inflationrate">Inflation rate</string>
         <string name="field_expectedrateofreturn">Expected rate of return</string>
-        <string name="field_planningmeetchildrenseducationgoal">Is your current planning able to meet your childrens' education goal ?</string>
+        <string name="field_planningmeetchildrenseducationgoal">Is your current planning able to meet your childrens\' education goal ?</string>
         <string name="field_maximizetaxadvantages">Are you maximising your tax advantages ?</string>
         <string name="field_solutionprotection">Would you prefer a protected or unprotected solution </string>
         <string name="field_protectionreturn">If your choice is protected savings/investment scheme, would you prefer a volatile or stable return ?</string>
@@ -26,11 +26,11 @@
         <string name="field_clientname">I</string>
         <string name="field_clientnumber">NRIC number </string>
         <string name="field_clientstatement"> have read, understood and accepted the above terms and conditions</string>
-        <string name="field_clientsignature">Client's signature</string>
+        <string name="field_clientsignature">Client\'s signature</string>
 
         <!--ASSOCIATE-->
-        <string name="field_associatename">Associate's name</string>
-        <string name="field_associatesignature">Associate's signature</string>
+        <string name="field_associatename">Associate\'s name</string>
+        <string name="field_associatesignature">Associate\'s signature</string>
 
         <!--DATE-->
         <string name="field_date_declaration">Date</string>
@@ -91,5 +91,5 @@
         <string name="field_expireddate">Expired date</string>
         <string name="field_findprospect">Find existing prospect</string>
         <string name="field_foundprospect">Found 12 prospect based on your description</string>
-        <string name="field_todaysplan">Today's plan</string>
+        <string name="field_todaysplan">Today\'s plan</string>
 </resources>

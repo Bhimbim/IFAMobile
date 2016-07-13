@@ -185,6 +185,12 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <!-- CHART -->
+    <style name="chart_size">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">400dp</item>
+    </style>
 
 	<!-- PAPER -->
 
