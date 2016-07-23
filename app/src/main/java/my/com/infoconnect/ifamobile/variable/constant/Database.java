@@ -5,6 +5,55 @@ package my.com.infoconnect.ifamobile.variable.constant;
  */
 public class Database
 {
+    //DATABASE
+
+    public static final String DATABASE_NAME = "IFA_MOBILE";
+    public static final int DATABASE_VERSION = 1;
+
+
+    // SYNTAX
+
+    public static final String compactTableQuestionnaire =
+            "create table " + Database.ENTITY_QUESTIONNAIRE
+                    + "("
+                    + Database.COLUMN_QUESTIONNAIRE_ID + " integer primary key,"
+                    + Database.COLUMN_QUESTIONNAIRE_DESCRIPTION + " text not null "
+                    + ");";
+
+    public static final String compactTableQuestion =
+            "create table " + Database.ENTITY_QUESTION
+                    + "("
+                    + Database.COLUMN_QUESTION_ID + " integer primary key, "
+                    + Database.COLUMN_QUESTION_QUESTIONNAIREID + " integer, "
+                    + Database.COLUMN_QUESTION_QUESTION + " text not null "
+                    + ");";
+
+    public static final String compactTableOption =
+            "create table " + Database.ENTITY_OPTION
+                    + "("
+                    + Database.COLUMN_OPTION_ID + " integer primary key, "
+                    + Database.COLUMN_OPTION_QUESTIONNAIREID + " integer, "
+                    + Database.COLUMN_OPTION_OPTION + " text not null "
+                    + ");";
+
+    public static final String compactTableProspect=
+            "create table " + Database.ENTITY_PROSPECT
+                    + "("
+                    + Database.COLUMN_PROSPECT_ID + " integer primary key, "
+                    + Database.COLUMN_PROSPECT_NAME  + " text, "
+                    + Database.COLUMN_PROSPECT_TITLE + " text, "
+                    + Database.COLUMN_PROSPECT_BIRTHDAY + " date, "
+                    + Database.COLUMN_PROSPECT_GENDER + " text, "
+                    + Database.COLUMN_PROSPECT_ADDRESS + " text, "
+                    + Database.COLUMN_PROSPECT_TELEPHONENUMBER + " text, "
+                    + Database.COLUMN_PROSPECT_EMAIL + " text, "
+                    + Database.COLUMN_PROSPECT_UPDATEDON + " date, "
+                    + Database.COLUMN_PROSPECT_UPDATEDBY + " int, "
+                    + Database.COLUMN_PROSPECT_CREATEDON + " date, "
+                    + Database.COLUMN_PROSPECT_CREATEDBY + " int "
+                    + ");";
+
+
     // SYNTAX
 
     public static final String QUERY_CONDITION_AND = "and";
@@ -29,6 +78,7 @@ public class Database
         public static final String ENTITY_QUESTIONNAIRE  = "Questionnaire";
 
         public static final String COLUMN_QUESTIONNAIRE_ID  = "id";
+        public static final String COLUMN_QUESTIONNAIRE_DESCRIPTION ="desc";
         public static final String COLUMN_QUESTIONNAIRE_STATE  = "state";
 
         // CATEGORY

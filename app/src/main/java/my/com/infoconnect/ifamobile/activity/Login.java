@@ -3,14 +3,28 @@ package my.com.infoconnect.ifamobile.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import my.com.infoconnect.ifamobile.R;
+import my.com.infoconnect.ifamobile.database.Initiate;
+import my.com.infoconnect.ifamobile.database.Manager;
+import my.com.infoconnect.ifamobile.entity.OptionEntity;
+import my.com.infoconnect.ifamobile.entity.ProspectEntity;
+import my.com.infoconnect.ifamobile.entity.QuestionEntity;
+import my.com.infoconnect.ifamobile.entity.QuestionnaireEntity;
 import my.com.infoconnect.ifamobile.function.TypefaceGenerator;
+import my.com.infoconnect.ifamobile.service.OptionService;
+import my.com.infoconnect.ifamobile.service.ProspectService;
+import my.com.infoconnect.ifamobile.service.QuestionService;
+import my.com.infoconnect.ifamobile.service.QuestionnaireService;
+import my.com.infoconnect.ifamobile.variable.Public;
+import my.com.infoconnect.ifamobile.variable.constant.Character;
 import my.com.infoconnect.ifamobile.variable.constant.UserInterface;
 
 /**
@@ -72,5 +86,13 @@ public class Login extends AppCompatActivity
                 startActivity(GoToLogin);
             }
         });
+
+        //DATABASE
+        Manager.initDatabase(this);
+
+        Initiate.initiateQuestionnaire();
+        Initiate.initiateQuestion();
+        Initiate.initiateOption();
+        Initiate.initiateProspect();
     }
 }
